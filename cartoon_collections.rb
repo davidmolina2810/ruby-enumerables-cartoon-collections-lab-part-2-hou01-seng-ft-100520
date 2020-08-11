@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
     if planeteer_calls.find {|call| call == word}
       return planeteer_calls.find {|call| call == word}
     else
-      i += 1
+      i +k= 1
     end
   end
 end
